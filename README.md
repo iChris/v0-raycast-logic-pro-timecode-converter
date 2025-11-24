@@ -2,6 +2,8 @@
 
 A web tool that converts Logic Pro timecodes into markdown lists with clickable timestamps.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9ed120d7-7e66-4e8d-9d6f-25cf47703582/deploy-status)](https://app.netlify.com/projects/logic-chapters-to-markdown/deploys)
+
 ## Features
 
 - Convert tab-separated timecode data from Logic Pro
