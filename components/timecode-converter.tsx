@@ -136,38 +136,7 @@ ${exampleData}`}
         </Card>
       )}
 
-      <Card>
-        <CardHeader>
-          <CardTitle>Raycast Plugin Files</CardTitle>
-          <CardDescription>
-            The actual Raycast plugin files are included in this project. Download the ZIP and look for:
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <ul className="list-disc list-inside space-y-1 text-sm">
-            <li>
-              <code>package.json</code> - Raycast extension configuration
-            </li>
-            <li>
-              <code>src/index.tsx</code> - Main Raycast component
-            </li>
-            <li>
-              <code>tsconfig.json</code> - TypeScript configuration
-            </li>
-            <li>
-              <code>README.md</code> - Installation and usage instructions
-            </li>
-          </ul>
-          <div className="mt-4 p-4 bg-blue-50 dark:bg-blue-950 rounded-lg">
-            <p className="text-sm">
-              <strong>To use as a Raycast extension:</strong> Download this project, navigate to the folder in terminal,
-              run <code className="bg-background px-1 rounded">npm install</code> and{" "}
-              <code className="bg-background px-1 rounded">npm run dev</code>
-              to start developing the Raycast extension.
-            </p>
-          </div>
-        </CardContent>
-      </Card>
+
     </div>
   )
 }
